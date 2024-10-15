@@ -6,4 +6,4 @@ def loudlevel(loud):
         else:
             if loud<thingsl[0][1]:return f'Шум меньше {thingsl[0][0]}'
             else:return f'Шум больше {thingsl[-1][0]}'
-print(loudlevel(39))
+print(loudlevel(40))

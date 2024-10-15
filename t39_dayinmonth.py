@@ -4,3 +4,9 @@ def dmonth(month):
     return 31 if months[month] % 2 == 0 else 30
 
 print(dmonth(input()))
+
+
+"""
+Можно было это сделать через словарь?
+Ведь ключи получились индексами.
+"""
